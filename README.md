@@ -20,7 +20,7 @@ Wrap sensitive properties in DEC()
 
 Run maven command
 
-    mvn jasypt:encrypt -Djasypt.encryptor.password=mySecretP@ssworD"
+    mvn jasypt:encrypt -Djasypt.encryptor.password=mySecretP@ssworD
 
 Your sensitive data should be encrypted and wrapped in ENC()
 
